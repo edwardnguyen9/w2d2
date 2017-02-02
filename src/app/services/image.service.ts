@@ -1,5 +1,5 @@
 import {Injectable} from '@angular/core';
-import {forEach} from "@angular/router/src/utils/collection";
+import {forEach} from '@angular/router/src/utils/collection';
 
 @Injectable()
 export class ImageService {
@@ -10,7 +10,8 @@ export class ImageService {
   imageData: any;
   pixels: any;
   numPixels: number;
-  functions: Object = {};
+  functions: any = {
+  };
 
 
   constructor() {
